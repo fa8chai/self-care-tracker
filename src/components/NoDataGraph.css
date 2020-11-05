@@ -1,0 +1,31 @@
+.noDataGraph {
+    margin: auto;
+    margin-top: 5rem;
+    position: relative;
+    width: fit-content;
+}
+.noDataGraph > div {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    z-index: 50;
+    opacity: 0.2;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    border-radius: 2px;
+}
+.noDataGraph > h4 {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    z-index: 60;
+    color:  #c7c7c7;
+    padding: unset;
+    background-color: unset;
+    font-size: 28px;
+}

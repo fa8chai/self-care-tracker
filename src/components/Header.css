@@ -1,0 +1,29 @@
+.header {
+    color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #202020;
+    box-shadow:  6px 6px 12px #1e1e1e, 
+                 -6px -6px 12px #222222;
+    height: 40px;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999999999;
+    margin-top: 0;
+}
+.header__info {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.header__info > p {
+    margin-left: 10px;
+}
+.header > button {
+    width: fit-content;
+    margin: 0;
+}

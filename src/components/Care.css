@@ -1,0 +1,30 @@
+.care {
+    display: flex;
+    flex-direction: column;
+    color:  #f0f0f0;
+    margin-bottom: 1.8rem;
+    padding: 1px;
+    border-radius: 20px;
+    position: relative;
+    background: rgb(155, 0, 109);
+    background: linear-gradient(148deg, rgba(155,0,109,1) 0%, rgba(0,155,90,1) 92%);
+}
+.care__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+}
+.care__info > h4, .care__info > p {
+    color: #f0f0f0;
+    font-weight: unset;
+}
+.care__info--date {
+    position: absolute;
+    align-self: flex-start;
+    color: gray;
+    bottom: 55px;
+    font-size: 12px;
+    margin-left: 15px;
+}

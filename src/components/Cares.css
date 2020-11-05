@@ -1,0 +1,12 @@
+.cares {
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+    flex: 0.4;
+}
+
+@media (min-width: 1024px) {
+.cares {
+    margin-left: 20px;
+}
+}

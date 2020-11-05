@@ -1,0 +1,31 @@
+.graph {
+    margin: auto;
+    margin-top: 5rem;
+    width: fit-content;
+}
+.custom-tooltip {
+    padding: 10px;
+    background-color: rgb(255, 255, 255, 0.5) !important;
+    border-radius: 2px;
+}
+.custom-tooltip > p {
+    background-color: rgb(255, 255, 255, 0) !important;
+    color: black;
+    font-size: 16px;
+
+}
+.recharts-tooltip-wrapper {
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255, 0.5) !important;
+
+}
+@media (max-width: 425px) {
+    .graph > div > svg, .recharts-wrapper {
+        width: 300px !important;
+        height: 200px !important;
+    }
+    .graph > .recharts-wrapper > .recharts-legend-wrapper > .recharts-default-legend {
+        width: 300px;
+        margin: auto;
+    }
+}

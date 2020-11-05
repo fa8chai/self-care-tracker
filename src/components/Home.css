@@ -1,0 +1,74 @@
+.home {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    color: #f0f0f0
+}
+.home > form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+.home__care {
+    background-color: #292929;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 15px;
+    border: solid 1px   #353535;
+    border-radius: 10px;
+    outline: none;
+    width: 95%;
+    margin: 20px auto 20px 0px;
+}
+.home__time {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    margin-left: 0px;
+}
+.home__time > input {
+    background-color: #292929;
+    color: #f0f0f0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    outline: none;
+    padding: 15px;
+    margin: 5px 10px 0px 0px;
+    width: 80px;
+    border: 1px solid  #353535;
+    border-radius: 10px;
+}
+.home__time > svg {
+    padding: 15px;
+}
+.home__time > svg > g > circle, .home__time > svg > g > polyline {
+    color: #3b3b3b;
+}
+
+.home__button:hover {
+    color: #009b5a;
+    background-color: #f0f0f0;
+    border: solid 1px #009b5a;
+}
+.home__btn {
+    opacity: 0.5;
+}
+.home__btn:hover {
+    cursor: unset;
+}
+
+@media (max-width: 768px) {
+    .home > form {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .home > form {
+        width: 90%;
+        margin: auto;
+    }
+}
